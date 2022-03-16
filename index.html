@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap"
         rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -22,8 +23,8 @@
                 </p>
             </div>
             <div class="cards">
-                <div class="card-item">
-                    <h2 class="title-card">Free</h2>
+                <div class="card-item" id="card-item-free">
+                    <h2 class="title-card">Free <i class="bx bx-chevron-down" id="icon-free"></i> </h2>
                     <p class="price">R$ 0<span class="span-number">,00</span><span class="span-text">/mês</span></p>
                     <p class="card-description">Lorem ipsum dolor color amet sit, conscetur adispcir elit.</p>
                     <ul class="beneficits-list">
@@ -31,12 +32,12 @@
                         <li class="item-beneficit"><img src="./assets/check.svg"> Lorem ipsum dolor sit amet.</li>
                     </ul>
                     <div class="button">
-                        <button id="button">ASSINAR</button>
+                        <button class="btn" id="btn-free">ASSINAR</button>
                     </div>
                 </div>
-                <div class="card-item">
-                    <h2 class="title-card" id="title-card-popular">Básico <button>Popular</button></h2>
-                    <p class="price">R$ 0<span class="span-number">,00</span><span class="span-text">/mês</span></p>
+                <div class="card-item" id="card-item-basico">
+                    <h2 class="title-card" id="title-card-popular">Básico <button>Popular</button> <i class="bx bx-chevron-down" id="icon-basico"></i></h2>
+                    <p class="price">R$ 29<span class="span-number">,90</p>
                     <p class="card-description">Lorem ipsum dolor color amet sit, conscetur adispcir elit.</p>
                     <ul class="beneficits-list">
                         <li class="item-beneficit"><img src="./assets/check.svg"> Lorem ipsum dolor sit amet.</li>
@@ -44,12 +45,12 @@
                         <li class="item-beneficit"><img src="./assets/check.svg"> Lorem ipsum dolor sit amet.</li>
                     </ul>
                     <div class="button">
-                        <button id="btn-popular">ASSINAR</button>
+                        <button class="btn" id="btn-basico">ASSINAR</button>
                     </div>
                 </div>
-                <div class="card-item">
-                    <h2 class="title-card">Free</h2>
-                    <p class="price">R$ 0<span class="span-number">,00</span><span class="span-text">/mês</span></p>
+                <div class="card-item" id="card-item-profissional">
+                    <h2 class="title-card">Profissional <i class="bx bx-chevron-down" id="icon-profissional"></i> </h2>
+                    <p class="price">R$ 39<span class="span-number">,90</span><span class="span-text">/mês</span></p>
                     <p class="card-description">Lorem ipsum dolor color amet sit, conscetur adispcir elit.</p>
                     <ul class="beneficits-list">
                         <li class="item-beneficit"><img src="./assets/check.svg"> Lorem ipsum dolor sit amet.</li>
@@ -58,12 +59,14 @@
                         <li class="item-beneficit"><img src="./assets/check.svg"> Lorem ipsum dolor sit amet.</li>
                     </ul>
                     <div class="button">
-                        <button>ASSINAR</button>
+                        <button class="btn" id="btn-profissional">ASSINAR</button>
                     </div>
                 </div>
             </div>
         </section>
     </div>
 </body>
+
+<script src="./script.js"></script>
 
 </html>

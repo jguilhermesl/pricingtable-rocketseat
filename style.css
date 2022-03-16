@@ -14,13 +14,16 @@
 
 section {
     padding-top: 3rem;
+    width: 100vw;
+    padding-bottom: 6rem;
 }
 
 .header {
-    width: 553px;
+    max-width: 553px;
     margin: 0 auto!important;
     text-align: center;
 }
+
 
 .title {
     font-weight: 700;
@@ -45,22 +48,41 @@ section {
 .card-item {
     position: relative;
     width: 350px;
-    height: 400px;
+    height: 70px;
+    overflow: hidden;
     background: #FFFFFF;
     box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
     border-radius: 8px;
+    transition: 0.8s;
+}
+
+.card-item.show-card {
+    height: 420px;
+    overflow: visible;
 }
 
 .title-card {
+    height: 70px;
    color: #1E2338;
    font-weight: 600;
    font-size: 18px;
-   padding-top: 20px;
    padding-left: 20px;
    display: flex;
    justify-content: space-between;
    align-items: center;
 
+}
+
+.title-card i {
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    border-radius: 1300px;
+    transition: background 0.5s;
+}
+
+.title-card i:hover {
+    background: #e9e9e9;
 }
 
 #title-card-popular {
@@ -140,7 +162,8 @@ section {
     left: 40px;
 }
 
-.button button {
+.btn {
+    opacity: 0;
     width: 270px;
     height: 47px;
     outline: none;
@@ -149,9 +172,43 @@ section {
     color: #1D539E;
     font-weight: 600;
     font-size: 17px;
+    transition: opacity 1s;
 }
 
-#btn-popular {
+.btn.show-card {
+    opacity: 1;
+}
+
+#btn-basico {
     background: #1D539E;
     color: #fff;
 }
+
+@media only screen and (max-width: 400px) {
+
+    .card-item {
+        width: 300px;
+    }
+    .header h1 {
+        font-size: 1.9rem;
+    }
+
+    .header p {
+        font-size: 1.1rem;
+        max-width: 330px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .container {
+        background-image: linear-gradient(to bottom, #1D539E 0, #1D539E 20%, #e5e5e5 50%);
+        height: 100%;
+    }
+
+    section {
+        padding-bottom: 1rem;
+    }
+}
+

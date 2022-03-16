@@ -1,24 +1,29 @@
-# Showroom
+# PricingTable - RocketSeat
 
-<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
+<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e
+ informações de licença aqui--->
 
-<img src="exemplo-image.png" alt="exemplo imagem">
+<img src="./imagens/example.png" alt="Example of project PricingTable">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> Challenge proposed by RocketSeat, to develop a homepage for a price list of a company's services.
 
-### Ajustes e melhorias
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+### Aplication link
 
-- [x] Tarefa 1
-- [x] Tarefa 2
-- [x] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
+Link: <a>http://jgsl-rocketprice.netlify.app</a>
 
-## 🤝 Colaboradores
+### Adjustments and improvementsA
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+The project has been finished.
+
+- [x] Body with HTML
+- [x] Stilization with CSS
+- [x] Class toggles with JavaScript
+- [x] Responsiveness
+
+## 🤝 Collaborator
+
+We thank the following people who contributed to this project:
 
 <table>
   <tr>
@@ -32,3 +37,10 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
   </tr>
 </table>
+
+## 👨‍💻 Technologies
+Technologies used in the project:
+
+<img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
